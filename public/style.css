@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.styleTitle{
+    color: brown;
+    background-color: orange;
+    text-align: center;
+    padding: 5px;
+}
+/* Designing a card */
+.Header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.cardContainer{
+    display: flex;
+}
+.cards{
+    background-color:rgb(48, 48, 48);
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid wheat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 grey;
+}
+.cards:hover{
+    box-shadow: 0 8px 16px 0 grey;
+}
+.cardTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin: 5px;
+}
+.cardDesc{
+    text-align: justify;
+    color: white;
+    margin-bottom: 10px;
+}
+.cardFooter{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.state-body{
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(78, 75, 75);
+    text-align: center;
+    color: white;
+}
+.state-button{
+    height: 50px;
+    width: 50px;
+    background-color: limegreen;
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+}
+.form-container{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(78, 75, 75);
+    color: white;
+}
+.form-body{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.form-button{
+    margin-left: 10px;
+    height: 50px;
+    width: 70px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+/* React Router */
+.routePage{
+    padding: 0.5rem;
+}
+nav{
+    background-color:rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.navElements{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+}
+.navElements:hover{
+    color: orange;
+}
+nav .active{
+    color: rosybrown;
+}
+.blogSection{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.blogArticle{
+    background-color: rosybrown;
+    margin: 5px;
+    padding: 20px;
+}
+.blogArticle:hover{
+    box-shadow: 0 4px 8px 0 rosybrown;
+}
+.blogLearnMore{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+.blogLearnMore:hover{
+    color: rgb(205, 203, 203);
+    cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .blogSection {
+      grid-template-columns: auto;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .blogSection {
+        grid-template-columns: auto auto;
+    }
+}

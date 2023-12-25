@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+}
+label{
+    font-size: 18px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+textarea{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+.todoButton{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+.todoButton:hover{
+    background-color: rgb(183, 181, 181);
+}
